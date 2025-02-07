@@ -134,7 +134,7 @@
 
 // Name displayed in the LCD "Ready" message and Info menu
 #define CUSTOM_MACHINE_NAME "Printcess Bride"
-
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 424.9 }
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
 //#define MACHINE_UUID "00000000-0000-0000-0000-000000000000"
@@ -1642,7 +1642,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -45, -5, -1.2 } // FLAG: change with new extruder
+#define NOZZLE_TO_PROBE_OFFSET { -45, -41, -1.2 } // FLAG: change with new extruder
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
